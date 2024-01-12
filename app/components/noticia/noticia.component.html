@@ -1,0 +1,34 @@
+<ion-header>
+ 
+    <div>
+      <ion-button color="success" slot="end" (click)="volve();stop()">Volver</ion-button>
+    </div>
+    
+    
+</ion-header>
+
+<div>
+
+  <ion-content fullscreen>
+
+    <ion-card>
+
+      <ion-card-header>
+        <ion-card-title style="font-size: 14px; font-weight: bold;">{{newsItem.title.rendered}}</ion-card-title>
+
+        <ion-card-subtitle>{{newsItem.categories[0]}}</ion-card-subtitle>
+      </ion-card-header>
+      
+        <img [src]="newsItem.jetpack_featured_media_url" object-fit="cover" alt="imagen">
+        <ion-button color="success" (click)="cspeak()">
+          
+          <ion-icon slot="start" name="volume-high-outline"></ion-icon>
+          Click aquí para escuchar
+        </ion-button>
+      <ion-card-content [innerHTML]="newsItem.content.rendered"></ion-card-content>
+    </ion-card>
+  </ion-content>
+</div>
+
+
+   

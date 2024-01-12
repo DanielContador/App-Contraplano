@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Videos</ion-title>
+  </ion-toolbar>
+ 
+    <div class="tolba">
+      <ion-button color="medium" slot="end" (click)="volve()">Volver</ion-button>
+    </div>
+    
+    
+
+</ion-header>
+
+<ion-content>
+  <div *ngFor="let img of imgElements">
+    <img [src]="img.src" [style.height]="img.height" [style.width]="img.width" [style.object-fit]="'cover'">
+    <div  *ngFor="let element of divElements">
+
+    </div>
+    
+
+</div>
+<div *ngFor="let link of youtubeLinks">
+  <ion-card-content [innerHTML]="link.html"></ion-card-content>
+  
+</div>
+
+<div *ngFor="let videoLink of ifrasourc">
+  <iframe [attr.src]="videoLink"></iframe>
+</div>
+
+
+
+
+
+
+</ion-content>
+
+

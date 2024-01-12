@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Radio</ion-title>
+  </ion-toolbar>
+  <div class="tolba">
+    <ion-button color="medium" slot="end" (click)="volve()">Volver</ion-button>
+  </div>
+</ion-header>
+
+
+<ion-content>
+  <div *ngFor="let videoLink of ifrasourc">
+    <iframe [attr.src]="videoLink"></iframe>
+  </div>
+</ion-content>

@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar>
+    
+  
+    <ion-button [routerLink]="['/home']" (click)="stop()" color="success">
+      <ion-icon name="return-up-back-outline"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+
+  <ion-card class="card">
+
+    <img alt="Logo contraplano" src="../../../assets/contraplanologo.png" />
+    <ion-card-header>
+
+
+      <ion-card-title>Somos</ion-card-title>
+      
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-button color="success" (click)="cspeak()">
+          
+        <ion-icon slot="start" name="volume-high-outline"></ion-icon>
+        Click aquí para escuchar
+      </ion-button>
+      Contraplano: Un día 9 de agosto se funda en Reñaca. Cumple más de dos décadas como medio de comunicación, otrora escrito y hoy digital, en un mundo globalizado altamente tecnológico, es ya un merito importante. Contraplano, fundado un 9 de agosto de 2002, en Reñaca, surgió como necesidad imperiosa para favorecer la noticia local, objetivo que cumple hasta ahora a plena calidad y ahora plenamente incorporado a las nuevas plataformas comunicacionales. La línea editorial permite concentrar variedad de opiniones, pero principalmente se consolida como medio comprometido con un periodismo veraz, a la vez de otorgar cabida a conocidos columnistas para expresar libremente sus puntos de vista sobre temas de la contingencia compartiendo espacios con informaciones, crónicas, reportajes, entrevistas y publirreportajes de la contingencia noticiosa. A más de dos décadas de su salida a la luz pública, Contraplano ha evolucionado en su trayectoria como medio de comunicación al incorporar nuevas instancias de cobertura y ampliando su presencia periodística en Viña del Mar, Concón, Quintero, Puchuncaví, además de incorporar noveles sistemas televisivos, streaming y radiales dentro de los ámbitos locales. El reconocimiento a su trayectoria ha sido expresado por diversos estamentos de la comunidad, autoridades y organizaciones sociales, de tal forma que este proyecto marca un hito altamente positivo e importante, que permite a Contraplano aspirar en el futuro a mayores proyecciones comunicacionales. Fundado para servir a la ciudadanía a través de la información, propende también al desarrollo de la zona, sin prejuicio de expresar editorialmente su opinión critica, positiva y altruista fundamentada ante hechos que la ameriten. La dirección de este medio agradece a la comunidad, avisadores, clientes y autoridades que han manifestado congratulaciones y parabienes, que reconfortan a este medio informativo a continuar en la senda comunicacional que se ha impuesto a través de sus distintas modalidades."
+    </ion-card-content>
+  </ion-card>
+
+
+  <!-- <ion-card>
+    <ion-card-header>
+      <ion-card-title>Somos</ion-card-title>
+      
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-button color="success" (click)="cspeak()">
+          
+        <ion-icon slot="start" name="volume-high-outline"></ion-icon>
+        Click aquí para escuchar
+      </ion-button>
+      𝐂𝐎𝐍𝐓𝐑𝐀𝐏𝐋𝐀𝐍𝐎: 𝐔𝐍 𝐃𝐈𝐀 𝟗 𝐃𝐄 𝐀𝐆𝐎𝐒𝐓𝐎 𝐒𝐄 𝐅𝐔𝐍𝐃𝐀 𝐄𝐍 𝐑𝐄𝐍̃𝐀𝐂𝐀 𝐂𝐮𝐦𝐩𝐥𝐢𝐫 𝐦𝐚́𝐬 𝐝𝐞 𝐝𝐨𝐬 𝐝𝐞́𝐜𝐚𝐝𝐚𝐬 𝐜𝐨𝐦𝐨 𝐦𝐞𝐝𝐢𝐨 𝐝𝐞 𝐜𝐨𝐦𝐮𝐧𝐢𝐜𝐚𝐜𝐢𝐨́𝐧, 𝐨𝐭𝐫𝐨𝐫𝐚 𝐞𝐬𝐜𝐫𝐢𝐭𝐨 𝐲 𝐡𝐨𝐲 𝐝𝐢𝐠𝐢𝐭𝐚𝐥, 𝐞𝐧 𝐮𝐧 𝐦𝐮𝐧𝐝𝐨 𝐠𝐥𝐨𝐛𝐚𝐥𝐢𝐳𝐚𝐝𝐨 𝐚𝐥𝐭𝐚𝐦𝐞𝐧𝐭𝐞 𝐭𝐞𝐜𝐧𝐨𝐥𝐨́𝐠𝐢𝐜𝐨, 𝐞𝐬 𝐲𝐚 𝐮𝐧 𝐦𝐞́𝐫𝐢𝐭𝐨 𝐢𝐦𝐩𝐨𝐫𝐭𝐚𝐧𝐭𝐞. 𝐂𝐎𝐍𝐓𝐑𝐀𝐏𝐋𝐀𝐍𝐎, 𝐟𝐮𝐧𝐝𝐚𝐝𝐨 𝐮𝐧 𝟗 𝐝𝐞 𝐀𝐠𝐨𝐬𝐭𝐨 𝐝𝐞 𝟐𝟎𝟎𝟐, 𝐞𝐧 𝐑𝐞𝐧̃𝐚𝐜𝐚, 𝐬𝐮𝐫𝐠𝐢𝐨́ 𝐜𝐨𝐦𝐨 𝐧𝐞𝐜𝐞𝐬𝐢𝐝𝐚𝐝 𝐢𝐦𝐩𝐞𝐫𝐢𝐨𝐬𝐚 𝐩𝐚𝐫𝐚 𝐟𝐚𝐯𝐨𝐫𝐞𝐜𝐞𝐫 𝐥𝐚 𝐧𝐨𝐭𝐢𝐜𝐢𝐚 𝐥𝐨𝐜𝐚𝐥, 𝐨𝐛𝐣𝐞𝐭𝐢𝐯𝐨 𝐪𝐮𝐞 𝐜𝐮𝐦𝐩𝐥𝐞 𝐡𝐚𝐬𝐭𝐚 𝐚𝐡𝐨𝐫𝐚 𝐚 𝐩𝐥𝐞𝐧𝐚 𝐜𝐚𝐛𝐚𝐥𝐢𝐝𝐚𝐝 𝐲 𝐚𝐡𝐨𝐫𝐚 𝐩𝐥𝐞𝐧𝐚𝐦𝐞𝐧𝐭𝐞 𝐢𝐧𝐜𝐨𝐫𝐩𝐨𝐫𝐚𝐝𝐨 𝐚 𝐥𝐨𝐬 𝐧𝐮𝐞𝐯𝐚𝐬 𝐩𝐥𝐚𝐭𝐚𝐟𝐨𝐫𝐦𝐚𝐬 𝐜𝐨𝐦𝐮𝐧𝐢𝐜𝐚𝐜𝐢𝐨𝐧𝐚𝐥𝐞𝐬. 𝐋𝐚 𝐥𝐢́𝐧𝐞𝐚 𝐞𝐝𝐢𝐭𝐨𝐫𝐢𝐚𝐥 𝐩𝐞𝐫𝐦𝐢𝐭𝐞 𝐜𝐨𝐧𝐜𝐞𝐧𝐭𝐫𝐚𝐫 𝐯𝐚𝐫𝐢𝐞𝐝𝐚𝐝 𝐝𝐞 𝐨𝐩𝐢𝐧𝐢𝐨𝐧𝐞𝐬, 𝐩𝐞𝐫𝐨 𝐩𝐫𝐢𝐧𝐜𝐢𝐩𝐚𝐥𝐦𝐞𝐧𝐭𝐞 𝐬𝐞 𝐜𝐨𝐧𝐬𝐨𝐥𝐢𝐝𝐚 𝐜𝐨𝐦𝐨 𝐦𝐞𝐝𝐢𝐨 𝐜𝐨𝐦𝐩𝐫𝐨𝐦𝐞𝐭𝐢𝐝𝐨 𝐜𝐨𝐧 𝐮𝐧 𝐩𝐞𝐫𝐢𝐨𝐝𝐢𝐬𝐦𝐨 𝐯𝐞𝐫𝐚𝐳, 𝐚 𝐥𝐚 𝐯𝐞𝐳 𝐝𝐞 𝐨𝐭𝐨𝐫𝐠𝐚𝐫 𝐜𝐚𝐛𝐢𝐝𝐚 𝐚 𝐜𝐨𝐧𝐨𝐜𝐢𝐝𝐨𝐬 𝐜𝐨𝐥𝐮𝐦𝐧𝐢𝐬𝐭𝐚𝐬 𝐩𝐚𝐫𝐚 𝐞𝐱𝐩𝐫𝐞𝐬𝐚𝐫 𝐥𝐢𝐛𝐫𝐞𝐦𝐞𝐧𝐭𝐞 𝐬𝐮𝐬 𝐩𝐮𝐧𝐭𝐨𝐬 𝐝𝐞 𝐯𝐢𝐬𝐭𝐚 𝐬𝐨𝐛𝐫𝐞 𝐭𝐞𝐦𝐚𝐬 𝐝𝐞 𝐥𝐚 𝐜𝐨𝐧𝐭𝐢𝐧𝐠𝐞𝐧𝐜𝐢𝐚 𝐜𝐨𝐦𝐩𝐚𝐫𝐭𝐢𝐞𝐧𝐝𝐨 𝐞𝐬𝐩𝐚𝐜𝐢𝐨𝐬 𝐜𝐨𝐧 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐜𝐢𝐨𝐧𝐞𝐬, 𝐜𝐫𝐨́𝐧𝐢𝐜𝐚𝐬, 𝐫𝐞𝐩𝐨𝐫𝐭𝐚𝐣𝐞𝐬, 𝐞𝐧𝐭𝐫𝐞𝐯𝐢𝐬𝐭𝐚𝐬 𝐲 𝐩𝐮𝐛𝐥𝐢𝐫𝐫𝐞𝐩𝐨𝐫𝐭𝐚𝐣𝐞𝐬 𝐝𝐞 𝐥𝐚 𝐜𝐨𝐧𝐭𝐢𝐧𝐠𝐞𝐧𝐜𝐢𝐚 𝐧𝐨𝐭𝐢𝐜𝐢𝐨𝐬𝐚. 𝐀 𝐦𝐚́𝐬 𝐝𝐞 𝐝𝐨𝐬 𝐝𝐞́𝐜𝐚𝐝𝐚𝐬 𝐝𝐞 𝐬𝐮 𝐬𝐚𝐥𝐢𝐝𝐚 𝐚 𝐥𝐚 𝐥𝐮𝐳 𝐩𝐮́𝐛𝐥𝐢𝐜𝐚, 𝐂𝐎𝐍𝐓𝐑𝐀𝐏𝐋𝐀𝐍𝐎 𝐡𝐚 𝐞𝐯𝐨𝐥𝐮𝐜𝐢𝐨𝐧𝐚𝐝𝐨 𝐞𝐧 𝐬𝐮 𝐭𝐫𝐚𝐲𝐞𝐜𝐭𝐨𝐫𝐢𝐚 𝐜𝐨𝐦𝐨 𝐦𝐞𝐝𝐢𝐨 𝐝𝐞 𝐜𝐨𝐦𝐮𝐧𝐢𝐜𝐚𝐜𝐢𝐨́𝐧 𝐚𝐥 𝐢𝐧𝐜𝐨𝐫𝐩𝐨𝐫𝐚𝐫 𝐧𝐮𝐞𝐯𝐚𝐬 𝐢𝐧𝐬𝐭𝐚𝐧𝐜𝐢𝐚𝐬 𝐝𝐞 𝐜𝐨𝐛𝐞𝐫𝐭𝐮𝐫𝐚 𝐲 𝐚𝐦𝐩𝐥𝐢𝐚𝐧𝐝𝐨 𝐬𝐮 𝐩𝐫𝐞𝐬𝐞𝐧𝐜𝐢𝐚 𝐩𝐞𝐫𝐢𝐨𝐝𝐢́𝐬𝐭𝐢𝐜𝐚 𝐞𝐧 𝐕𝐢𝐧̃𝐚 𝐝𝐞𝐥 𝐌𝐚𝐫, 𝐂𝐨𝐧𝐜𝐨́𝐧, 𝐐𝐮𝐢𝐧𝐭𝐞𝐫𝐨, 𝐏𝐮𝐜𝐡𝐮𝐧𝐜𝐚𝐯𝐢́, 𝐚𝐝𝐞𝐦𝐚́𝐬 𝐝𝐞 𝐢𝐧𝐜𝐨𝐫𝐩𝐨𝐫𝐚𝐫 𝐧𝐨𝐯𝐞𝐥𝐞𝐬 𝐬𝐢𝐬𝐭𝐞𝐦𝐚𝐬 𝐭𝐞𝐥𝐞𝐯𝐢𝐬𝐢𝐯𝐨𝐬, 𝐬𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠 𝐲 𝐫𝐚𝐝𝐢𝐚𝐥𝐞𝐬 𝐝𝐞𝐧𝐭𝐫𝐨 𝐝𝐞 𝐥𝐨𝐬 𝐚́𝐦𝐛𝐢𝐭𝐨𝐬 𝐥𝐨𝐜𝐚𝐥𝐞𝐬. 𝐄𝐥 𝐫𝐞𝐜𝐨𝐧𝐨𝐜𝐢𝐦𝐢𝐞𝐧𝐭𝐨 𝐚 𝐬𝐮 𝐭𝐫𝐚𝐲𝐞𝐜𝐭𝐨𝐫𝐢𝐚 𝐡𝐚 𝐬𝐢𝐝𝐨 𝐞𝐱𝐩𝐫𝐞𝐬𝐚𝐝𝐨 𝐩𝐨𝐫 𝐝𝐢𝐯𝐞𝐫𝐬𝐨𝐬 𝐞𝐬𝐭𝐚𝐦𝐞𝐧𝐭𝐨𝐬 𝐝𝐞 𝐥𝐚 𝐜𝐨𝐦𝐮𝐧𝐢𝐝𝐚𝐝, 𝐚𝐮𝐭𝐨𝐫𝐢𝐝𝐚𝐝𝐞𝐬 𝐲 𝐨𝐫𝐠𝐚𝐧𝐢𝐳𝐚𝐜𝐢𝐨𝐧𝐞𝐬 𝐬𝐨𝐜𝐢𝐚𝐥𝐞𝐬, 𝐝𝐞 𝐭𝐚𝐥 𝐟𝐨𝐫𝐦𝐚 𝐪𝐮𝐞 𝐞𝐬𝐭𝐞 𝐩𝐫𝐨𝐲𝐞𝐜𝐭𝐨 𝐦𝐚𝐫𝐜𝐚 𝐮𝐧 𝐡𝐢𝐭𝐨 𝐚𝐥𝐭𝐚𝐦𝐞𝐧𝐭𝐞 𝐩𝐨𝐬𝐢𝐭𝐢𝐯𝐨 𝐞 𝐢𝐦𝐩𝐨𝐫𝐭𝐚𝐧𝐭𝐞, 𝐪𝐮𝐞 𝐩𝐞𝐫𝐦𝐢𝐭𝐞 𝐚 𝐂𝐎𝐍𝐓𝐑𝐀𝐏𝐋𝐀𝐍𝐎 𝐚𝐬𝐩𝐢𝐫𝐚𝐫 𝐞𝐧 𝐞𝐥 𝐟𝐮𝐭𝐮𝐫𝐨 𝐚 𝐦𝐚𝐲𝐨𝐫𝐞𝐬 𝐩𝐫𝐨𝐲𝐞𝐜𝐜𝐢𝐨𝐧𝐞𝐬 𝐜𝐨𝐦𝐮𝐧𝐢𝐜𝐚𝐜𝐢𝐨𝐧𝐚𝐥𝐞𝐬. 𝐅𝐮𝐧𝐝𝐚𝐝𝐨 𝐩𝐚𝐫𝐚 𝐬𝐞𝐫𝐯𝐢𝐫 𝐚 𝐥𝐚 𝐜𝐢𝐮𝐝𝐚𝐝𝐚𝐧𝐢́𝐚 𝐚 𝐭𝐫𝐚𝐯𝐞́𝐬 𝐝𝐞 𝐥𝐚 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐜𝐢𝐨́𝐧, 𝐩𝐫𝐨𝐩𝐞𝐧𝐝𝐞 𝐭𝐚𝐦𝐛𝐢𝐞́𝐧 𝐚𝐥 𝐝𝐞𝐬𝐚𝐫𝐫𝐨𝐥𝐥𝐨 𝐝𝐞 𝐥𝐚 𝐳𝐨𝐧𝐚, 𝐬𝐢𝐧 𝐩𝐞𝐫𝐣𝐮𝐢𝐜𝐢𝐨 𝐝𝐞 𝐞𝐱𝐩𝐫𝐞𝐬𝐚𝐫 𝐞𝐝𝐢𝐭𝐨𝐫𝐢𝐚𝐥𝐦𝐞𝐧𝐭𝐞 𝐬𝐮 𝐨𝐩𝐢𝐧𝐢𝐨́𝐧 𝐜𝐫𝐢́𝐭𝐢𝐜𝐚, 𝐩𝐨𝐬𝐢𝐭𝐢𝐯𝐚 𝐲 𝐚𝐥𝐭𝐫𝐮𝐢𝐬𝐭𝐚 𝐟𝐮𝐧𝐝𝐚𝐦𝐞𝐧𝐭𝐚𝐝𝐚 𝐚𝐧𝐭𝐞 𝐡𝐞𝐜𝐡𝐨𝐬 𝐪𝐮𝐞 𝐥𝐚 𝐚𝐦𝐞𝐫𝐢𝐭𝐞𝐧. 𝐋𝐚 𝐃𝐢𝐫𝐞𝐜𝐜𝐢𝐨́𝐧 𝐝𝐞 𝐞𝐬𝐭𝐞 𝐦𝐞𝐝𝐢𝐨 𝐚𝐠𝐫𝐚𝐝𝐞𝐜𝐞 𝐚 𝐥𝐚 𝐜𝐨𝐦𝐮𝐧𝐢𝐝𝐚𝐝, 𝐚𝐯𝐢𝐬𝐚𝐝𝐨𝐫𝐞𝐬, 𝐜𝐥𝐢𝐞𝐧𝐭𝐞𝐬 𝐲 𝐚𝐮𝐭𝐨𝐫𝐢𝐝𝐚𝐝𝐞𝐬 𝐪𝐮𝐞 𝐡𝐚𝐧 𝐦𝐚𝐧𝐢𝐟𝐞𝐬𝐭𝐚𝐝𝐨 𝐜𝐨𝐧𝐠𝐫𝐚𝐭𝐮𝐥𝐚𝐜𝐢𝐨𝐧𝐞𝐬 𝐲 𝐩𝐚𝐫𝐚𝐛𝐢𝐞𝐧𝐞𝐬, 𝐪𝐮𝐞 𝐫𝐞𝐜𝐨𝐧𝐟𝐨𝐫𝐭𝐚𝐧 𝐚 𝐞𝐬𝐭𝐞 𝐦𝐞𝐝𝐢𝐨 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐯𝐨 𝐚 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐚𝐫 𝐞𝐧 𝐥𝐚 𝐬𝐞𝐧𝐝𝐚 𝐜𝐨𝐦𝐮𝐧𝐢𝐜𝐚𝐜𝐢𝐨𝐧𝐚𝐥 𝐪𝐮𝐞 𝐬𝐞 𝐡𝐚 𝐢𝐦𝐩𝐮𝐞𝐬𝐭𝐨 𝐚 𝐭𝐫𝐚𝐯𝐞́𝐬 𝐝𝐞 𝐬𝐮𝐬 𝐝𝐢𝐬𝐭𝐢𝐧𝐭𝐚𝐬 𝐦𝐨𝐝𝐚𝐥𝐢𝐝𝐚𝐝𝐞𝐬..
+    </ion-card-content>
+  </ion-card> -->
+</ion-content>
