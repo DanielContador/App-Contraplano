@@ -8,6 +8,10 @@
 
 ---
 
+[![App Contraplano](https://img.youtube.com/vi/_8C8SineZkk/hqdefault.jpg)](https://www.youtube.com/watch?v=_8C8SineZkk)
+
+
+
 ## 🚀 **Descripción del Proyecto**  
 **Aplicación Contraplano** es una aplicación móvil híbrida desarrollada con **Ionic** y **Angular** que permite consumir contenido de noticias y videos publicados en un sitio web de **WordPress**. La app utiliza la **API REST de WordPress** para obtener contenido en formato JSON y adaptarlo a una interfaz optimizada para dispositivos móviles.
 
